@@ -1,0 +1,58 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main {
+  width: 700px;
+  height: 250px;
+  margin: 250px auto;
+}
+.main .logo {
+  text-align: center;
+}
+.main .search input {
+  width: 92%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #dadcdf;
+  float: left;
+}
+.main .search {
+  margin-top: 25px;
+}
+.main .search button {
+  width: 8%;
+  padding: 10px;
+  background-color: #a0d468;
+  border: 1px solid #a0d468;
+  float: left;
+
+  font-size: 17px;
+  color: white;
+  font-weight: 900;
+  border-radius: 0px 5px 5px 0px;
+}
+.main .menu {
+  text-align: center;
+}
+.main .menu img {
+  margin-top: 25px;
+  padding: 0px 15px;
+}
